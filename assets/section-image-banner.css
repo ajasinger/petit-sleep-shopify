@@ -167,7 +167,6 @@
   align-items: center;
   justify-content: center;
   z-index: 2;
-  font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
 }
 
 @media screen and (max-width: 749px) {
