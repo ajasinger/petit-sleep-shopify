@@ -1,0 +1,150 @@
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="{% unless section.settings.full_width %}page-width{% endunless %}" id="section-richt-text-with-icon">
+  <div class="fadeIn rich-text {% if section.settings.full_width %} rich-text--full-width{% endif %}" style="background-color: {{ section.settings.background }}">
+	<div class="rich-text__blocks">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+		   {%- when 'icon' -%}  
+			<div class="rich-text-with-image-icon"><img src="{{ block.settings.icon | img_url: '1500x' }}" alt="{{ block.settings.icon.alt | escape }}" /></div>
+          {%- when 'heading' -%}
+            <h2 class="{{ block.settings.heading_size }} fadeInUp" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
+          {%- when 'text' -%}
+            <div class="rich-text__text rte fadeIn" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+          {%- when 'button' -%}
+            <a{% if block.settings.button_link == blank %} aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+              {{ block.settings.button_label | escape }}
+            </a>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.rich-text-with-icon.name",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background",
+      "label": "t:sections.rich-text-with-icon.settings.background.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text-with-icon.settings.full_width.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.rich-text-with-icon.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Talk about your brand",
+          "label": "t:sections.rich-text-with-icon.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.rich-text-with-icon.blocks.heading.settings.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.rich-text-with-icon.blocks.heading.settings.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.rich-text-with-icon.blocks.heading.settings.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.rich-text-with-icon.blocks.heading.settings.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.rich-text-with-icon.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+          "label": "t:sections.rich-text-with-icon.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "t:sections.rich-text-with-icon.blocks.icon.name",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.rich-text-with-icon.blocks.icon.settings.icon.label"
+        }
+      ]
+    },
+     {
+      "type": "button",
+      "name": "t:sections.rich-text-with-icon.blocks.button.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.rich-text-with-icon.blocks.button.settings.button_label.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.rich-text-with-icon.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.rich-text-with-icon.blocks.button.settings.button_style_secondary.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.rich-text-with-icon.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

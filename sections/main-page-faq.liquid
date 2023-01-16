@@ -1,0 +1,74 @@
+
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'faq-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div id="faqs" class="page-width page-width--narrow">
+  
+  <div class="rte">
+    <h3 class="textCenter">{{ section.settings.intro }}</h3>
+  </div>
+
+  <div class="faq-container">
+    <div class="tabs">
+    	{% for block in section.blocks %}
+      		{% assign item = block.settings %}
+
+      		<div class="tab fadeInUp">
+      			<input type="checkbox" id="faq_checkbox_{{ forloop.index }}_{{ block.id }}" class="faq-checkbox">
+        		<label for="faq_checkbox_{{ forloop.index }}_{{ block.id }}" class="tab-label ">{{ item.question }}</label>
+        		<div class="tab-content">{{ item.answer }}</div>
+      		</div>
+      	{% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FAQ section",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "text",
+      "id": "intro",
+      "label": "Intro text"
+    }
+  ],
+  "blocks": [
+		{
+			"name": "FAQ Item",
+			"type": "faq",
+			"settings": [
+				{
+					"type": "text",
+					"id": "question",
+					"label": "Question",
+					"default": "Do you have a question?"
+				},
+				{
+					"type": "richtext",
+					"id": "answer",
+					"label": "Answer",
+					"default": "<p>I have an answer</p>"
+				}
+			]
+		}
+	],
+  "presets": [
+    {
+      "name": "FAQs",
+      "blocks": [
+        {
+          "type": "faq"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+

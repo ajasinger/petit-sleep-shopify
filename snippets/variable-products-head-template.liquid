@@ -1,0 +1,5 @@
+{%- if collection and product == null -%}
+  <link id="variable-products-load-css" rel="stylesheet" href="{{ 'variable-products-load.css' | asset_url }}" />
+  <link rel="stylesheet" href="{{ 'variable-products.css' | asset_url }}" />
+{%- endif -%}
+<script src="{{ 'variable-products.js' | asset_url }}" type="text/javascript" defer></script>
