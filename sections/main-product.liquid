@@ -354,6 +354,12 @@
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
+
+                {%- comment -%} size guide added here {%- endcomment -%}
+
+                {% if product.options contains 'Size' %}
+                  <a class="trigger-pop-up btn">Size Guide</a>
+                {% endif %}
                 
                 {%- comment -%} quantity chooser now here (from above) {%- endcomment -%}
                 
