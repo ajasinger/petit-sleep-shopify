@@ -257,4 +257,49 @@ ul.boost-pfs-search-result-panel-controls>li button {
     text-decoration: none;
     color: var(--color-foreground-85);
 }
+
+.boost-pfs-filter-custom-sorting button>span:after {
+    top: 50%;
+    right: 0;
+    left: auto;
+    right: -20px;
+    position: absolute;
+    margin-top: -2px;
+    content: "";
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+    display: inline-block;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 11px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: -5px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: inherit
+}
+
+.boost-pfs-filter-custom-sorting.boost-pfs-filter-sort-active button>span:after {
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    margin-top: -2px
+}
 /* End boost 164266 */
