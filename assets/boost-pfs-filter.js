@@ -343,56 +343,6 @@ var boostPFSFilterConfig = {
 		return paginationHtml;
 	};
 
-	// // Build Sorting
-	// ProductSorting.prototype.compileTemplate = function () {
-	// 	var html = '';
-	// 	if (boostPFSTemplate.hasOwnProperty('sortingHtml')) {
-	// 		var sortingArr = Utils.getSortingList();
-	// 		if (sortingArr) {
-	// 			var paramSort = Globals.queryParams.sort || '';
-	// 			// Build content
-	// 			var sortingItemsHtml = '';
-	// 			for (var k in sortingArr) {
-	// 				var isSelected = ''
-	// 				if(paramSort == k) {
-	// 					isSelected = 'selected="selected"'
-	// 				}
-	// 				sortingItemsHtml += '<option value="' + k + '"' + isSelected + '>' + sortingArr[k] + '</option>';
-	// 			}
-	// 			html = boostPFSTemplate.sortingHtml.replace(/{{sortingItems}}/g, sortingItemsHtml);
-	// 		}
-	// 	}
-	// 	return html;
-	// };
-
-	// ProductSorting.prototype.render = function () {
-	// 	jQ(Selector.topSorting).html(this.compileTemplate());
-
-	// 	if (jQ('.boost-pfs-filter-custom-sorting').hasClass('boost-pfs-filter-sort-active')) {
-	// 		jQ('.boost-pfs-filter-custom-sorting').toggleClass('boost-pfs-filter-sort-active');
-	// 	}
-
-	// 	var labelSort = '';
-	// 	var paramSort = Globals.queryParams.sort || '';
-	// 	var sortingList = Utils.getSortingList();
-	// 	if (paramSort.length > 0 && sortingList && sortingList[paramSort]) {
-	// 		labelSort = sortingList[paramSort];
-	// 	} else {
-	// 		labelSort = Labels.sorting_heading;
-	// 	}
-
-	// 	jQ('.boost-pfs-filter-custom-sorting button span span').text(labelSort);
-	// }
-
-	// // Build Sorting event
-	// ProductSorting.prototype.bindEvents = function() {
-	// 	jQ(Selector.topSorting + ' .facet-filters__sort').change(function(e) {
-	// 		e.preventDefault();
-	// 		FilterApi.setParam('sort', jQ(this).val());
-	// 		FilterApi.setParam('page', 1);
-	// 		FilterApi.applyFilter('sort');
-	// 	});
-	// };
 
   	// Build Sorting
 	ProductSorting.prototype.compileTemplate = function() {
