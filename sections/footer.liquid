@@ -21,6 +21,7 @@
 		<img class=" fadeIn" src="https://cdn.shopify.com/s/files/1/0556/8672/5782/files/newsletter_lets-keep-in-in-touch_icon_e4dc2f5e-bc3f-4f62-9dd5-2ad12b1e1cc8.png?v=1635163650" style="max-width: 160px; margin: 3vh auto 0; display: block;" />
 		  
       <div class="footer-block--newsletter">
+        {% comment %} TODO: move this down into the footer where you want the newsletter, and restyle {% endcomment %}
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -171,6 +172,7 @@
               {%- case block.type -%}
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte textRight">
+                    {% comment %} TODO: possibly put newsletter here? {% endcomment %}
                     {{ block.settings.subtext }}
                   </div>
 				<div class="footer-block__copyright textRight">
