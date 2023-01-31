@@ -46,12 +46,12 @@
           "type": "product_tabs",
           "disabled": true,
           "settings": {
-            "product_tab_1": "{{ product.metafields.my_fields.product_tab_1_title.value }}",
-            "product_tab_1_content": "<p>{{ product.metafields.my_fields.product_tabs_about | metafield_tag }}<\/p>",
+            "product_tab_1": "",
+            "product_tab_1_content": "",
             "product_tab_2": "",
-            "product_tab_2_content": "<p>{{ product.metafields.my_fields.product_tabs_details | metafield_tag }}<\/p>",
-            "product_tab_3": "{{ product.metafields.my_fields.product_tab_3_title.value }}",
-            "product_tab_3_content": "<p>{{ product.metafields.my_fields.product_tabs_materials_care | metafield_tag }}<\/p>"
+            "product_tab_2_content": "",
+            "product_tab_3": "",
+            "product_tab_3_content": ""
           }
         },
         "share": {
