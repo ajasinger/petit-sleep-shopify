@@ -84,7 +84,10 @@
 </div>
 
 {%- when 'sortingHtml' -%}
-<label class="boost-pfs-filter-sort-by-label"></label><button class="boost-pfs-filter-top-sorting-wrapper"><span><span></span></span></button><ul class="boost-pfs-filter-filter-dropdown">[[sortingItems]]</ul>
+<select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortBy" aria-describedby="a11y-refresh-page-message">[[sortingItems]]</select>
+<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
 
 {%- endcase -%}
 {%- endcapture -%}
