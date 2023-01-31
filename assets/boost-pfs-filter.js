@@ -397,7 +397,6 @@ var boostPFSFilterConfig = {
   	// Build Sorting
 	ProductSorting.prototype.compileTemplate = function() {
 		var html = '';
-		if (boostPFSThemeConfig.custom.show_sort_by && boostPFSTemplate.hasOwnProperty('sortingHtml')) {
 			var sortingArr = Utils.getSortingList();
 			if (sortingArr) {
 				var paramSort = Globals.queryParams.sort || '';
@@ -412,7 +411,6 @@ var boostPFSFilterConfig = {
 				}
 				html = boostPFSTemplate.sortingHtml.replace(/{{sortingItems}}/g, sortingItemsHtml);
 			}
-		}
 		return html;
 	};
 
