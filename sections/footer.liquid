@@ -22,6 +22,7 @@
 		  
       <div class="footer-block--newsletter">
         {% comment %} TODO: move this down into the footer where you want the newsletter, and restyle {% endcomment %}
+        {%comment%} moved this section into footer block
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -68,6 +69,7 @@
             {%- endform -%}
           </div>
         {%- endif -%}
+        {% endcomment %}
 
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
