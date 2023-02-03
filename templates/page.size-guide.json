@@ -1,0 +1,357 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "163577665765d5d3cc": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "163577665765d5d3cc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lifetime friends Liz & Emily came together when they noticed a void in the baby and toddler space. In order to fill a gap in the children’s bedding space, to replace crunchy, ill fitting, and mediocre designed bedding, was born. Our mission is to bring the magic and joy of youthfulness to bedtime, making sleep more enjoyable for little ones—and their parents.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163577665765d5d3cc-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-photo1.jpg",
+        "height": "default",
+        "header_size": "small",
+        "width": "full-width",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "icon": "shopify:\/\/shop_images\/icon_rocket.png"
+      }
+    },
+    "1635776666e65705ea": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "1635776666e65705ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1635776666e65705ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brad and Brandon joined the team. Friends since birth—who shared their first sleepover as infants- <br\/>they quickly understand the value of a good night’s sleep—and what it means to be family.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635776666e65705ea-0",
+        "1635776666e65705ea-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-photo2.jpg",
+        "height": "default",
+        "header_size": "default",
+        "width": "full-width",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "icon": "shopify:\/\/shop_images\/icon_three_stars.png"
+      }
+    },
+    "16357903973a18fa5a": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "16357903973a18fa5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "16357903973a18fa5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Liz, Chief of Markers & Crayons, was determined to create bedding she needed and wanted in her own nursery. By providing soft and sustainable bedding, with approachable yet elevated designs, we are able to simplify sleep, making it a luxury, and not a chore. With all the chaos and uncertainty parenting brings, rest assured that you can count on us for long, peaceful sleeps.<\/p>"
+          }
+        },
+        "16357903973a18fa5a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16357903973a18fa5a-0",
+        "16357903973a18fa5a-1",
+        "16357903973a18fa5a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-photo3.jpg",
+        "height": "default",
+        "header_size": "default",
+        "width": "full-width",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "icon": "shopify:\/\/shop_images\/icon_paint.png"
+      }
+    },
+    "1635790510eb6ca23c": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "1635790510eb6ca23c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1635790510eb6ca23c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our kids led us to this gap in the market. Our three year old’s interest in transitioning from a crib to a bed was dependent on the design. Unfortunately, the current market didn’t sell mom and kid approved sheets. We are thrilled that our family is sleeping soundly and comfortably in Petit Sleep!<\/p>"
+          }
+        },
+        "1635790510eb6ca23c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "48ecf7dc-91e0-4671-a430-a679b49500b1": {
+          "type": "sub_icon",
+          "settings": {
+            "icon_file": "shopify:\/\/shop_images\/sub_icon_crib.png",
+            "sub_icon_position": "top_left"
+          }
+        },
+        "c00a666f-4499-4c64-bcfc-5d1f8cac5ff1": {
+          "type": "sub_icon",
+          "settings": {
+            "icon_file": "shopify:\/\/shop_images\/sub_icon_bed.png",
+            "sub_icon_position": "bottom_right"
+          }
+        }
+      },
+      "block_order": [
+        "1635790510eb6ca23c-0",
+        "1635790510eb6ca23c-1",
+        "1635790510eb6ca23c-2",
+        "48ecf7dc-91e0-4671-a430-a679b49500b1",
+        "c00a666f-4499-4c64-bcfc-5d1f8cac5ff1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-photo4.jpg",
+        "height": "default",
+        "header_size": "default",
+        "width": "full-width",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163579059803ed7028": {
+      "type": "rich-text-with-icon",
+      "blocks": {
+        "163579059803ed7028-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parent-and-Kid-Approved Designs",
+            "heading_size": "h2"
+          }
+        },
+        "163579059803ed7028-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designs and prints that parents and little ones can appreciate! Our in-house designer has found the intersection between the mom’s desires and a little one’s dreams.<\/p>"
+          }
+        },
+        "163579059803ed7028-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/product_callout_banner_icon_d1dd912b-67bb-4fd4-b1c4-7f332280b792.png"
+          }
+        },
+        "163579059803ed7028-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163579059803ed7028-0",
+        "163579059803ed7028-1",
+        "163579059803ed7028-2",
+        "163579059803ed7028-3"
+      ],
+      "settings": {
+        "background": "#c0e0ee",
+        "full_width": true
+      }
+    },
+    "16357906696d75875b": {
+      "type": "rich-text",
+      "blocks": {
+        "16357906696d75875b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Softest Sheets in the Game",
+            "heading_size": "h2"
+          }
+        },
+        "16357906696d75875b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve created a unique fabrication blend that’s among the softest fabrics you will ever get your hands on. Breathable and buttery soft, our crib sheets and toddler bedding makes bedtime extra cozy and even exciting!<\/p>"
+          }
+        },
+        "16357906696d75875b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16357906696d75875b-0",
+        "16357906696d75875b-1",
+        "16357906696d75875b-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": false
+      }
+    },
+    "1635791181a7717dec": {
+      "type": "rich-text",
+      "blocks": {
+        "1635791181a7717dec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Perfect Fit",
+            "heading_size": "h2"
+          }
+        },
+        "1635791181a7717dec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve perfected the fit of our crib sheets and toddler bedding to ensure a good night's sleep and to make sheet-changing and bed-making convenient and easy.  The unique fabrication blend keeps little ones warm and cozy in the winter and cool in the summer.<\/p>"
+          }
+        },
+        "1635791181a7717dec-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1635791181a7717dec-0",
+        "1635791181a7717dec-1",
+        "1635791181a7717dec-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": false
+      }
+    },
+    "1635791208a7eb5715": {
+      "type": "rich-text",
+      "blocks": {
+        "1635791208a7eb5715-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ethically & Sustainably Made",
+            "heading_size": "h2"
+          }
+        },
+        "1635791208a7eb5715-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve partnered with best in class manufacturers to develop ethically-made, sustainable products that are not only better for the environment, but also better for those manufacturing our products.<\/p>"
+          }
+        },
+        "1635791208a7eb5715-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1635791208a7eb5715-0",
+        "1635791208a7eb5715-1",
+        "1635791208a7eb5715-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": false
+      }
+    },
+    "163579123258306cbf": {
+      "type": "rich-text",
+      "blocks": {
+        "163579123258306cbf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Machine Washable",
+            "heading_size": "h2"
+          }
+        },
+        "163579123258306cbf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As parents we know that little ones’ bedding is washed often. Our proprietary blend is designed to be washed frequently without pilling or compromising softness. As an added bonus: the crib sheets’ stretchy fabric makes it easy and convenient to get on and off, encouraging parents to wash frequently.<\/p>"
+          }
+        },
+        "163579123258306cbf-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163579123258306cbf-0",
+        "163579123258306cbf-1",
+        "163579123258306cbf-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163577665765d5d3cc",
+    "1635776666e65705ea",
+    "16357903973a18fa5a",
+    "1635790510eb6ca23c",
+    "163579059803ed7028",
+    "16357906696d75875b",
+    "1635791181a7717dec",
+    "1635791208a7eb5715",
+    "163579123258306cbf"
+  ]
+}
