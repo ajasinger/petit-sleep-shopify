@@ -293,6 +293,9 @@
                               </label>
                            {% endif %}
                            {% comment %} TODO: insert size chart here {% endcomment %}
+                           {% if option.name contains 'Size' %}
+                            <a class="trigger-pop-up btn">Size Guide</a>
+                          {% endif %}
                         {%- endfor -%}
                       </fieldset>
                   {%- endfor -%}
