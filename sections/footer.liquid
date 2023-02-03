@@ -16,9 +16,11 @@
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
+    {% comment %}
     <div class="footer__content-top page-width">
       
 		<img class=" fadeIn" src="https://cdn.shopify.com/s/files/1/0556/8672/5782/files/newsletter_lets-keep-in-in-touch_icon_e4dc2f5e-bc3f-4f62-9dd5-2ad12b1e1cc8.png?v=1635163650" style="max-width: 160px; margin: 3vh auto 0; display: block;" />
+    {% endcomment %}
 		  
       <div class="footer-block--newsletter">
         {% comment %} TODO: move this down into the footer where you want the newsletter, and restyle {% endcomment %}
