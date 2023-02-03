@@ -377,6 +377,10 @@ h5,
   font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
 }
 
+.banner__heading {
+  font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
+}
+
 .h0 {
   font-size: calc(var(--font-heading-scale) * 4rem);
 }
