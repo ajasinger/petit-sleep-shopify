@@ -126,6 +126,12 @@
         "show_text_below": true
       }
     },
+    "f84c2337-65be-48d4-aa92-e2f240a47337": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nvideo {\ndisplay: block;\nmargin: 0 auto;\nwidth: 100%;\nheight: 50%;\n}\n<\/style>\n\n<video autoplay loop playsinline muted>\n<source src= \"https:\/\/www.youtube.com\/watch?v=ScMzIvxBSi4\"\n<\/video>"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -419,6 +425,7 @@
     "1634905274161eb836",
     "61737c72-157f-4fa6-a0a8-4e62a64d2973",
     "1019ccdf-afb3-4779-8073-612817d19a15",
+    "f84c2337-65be-48d4-aa92-e2f240a47337",
     "rich_text",
     "featured_products",
     "27e39f97-e939-469e-b23e-bf256fd41c30",
