@@ -126,52 +126,6 @@
         "show_text_below": true
       }
     },
-    "304c206f-b911-4df3-8837-adfdd0519fc4": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=ScMzIvxBSi4",
-        "description": "",
-        "full_width": true
-      }
-    },
-    "56cbdb13-d97b-4423-a372-e5e47546724c": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sweet Bedding. Sweet Dreams.",
-            "heading_size": "h2"
-          }
-        },
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Video description goes here.<\/p>"
-          }
-        },
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-0",
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-1",
-        "template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-2"
-      ],
-      "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": true
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -465,8 +419,6 @@
     "1634905274161eb836",
     "61737c72-157f-4fa6-a0a8-4e62a64d2973",
     "1019ccdf-afb3-4779-8073-612817d19a15",
-    "304c206f-b911-4df3-8837-adfdd0519fc4",
-    "56cbdb13-d97b-4423-a372-e5e47546724c",
     "rich_text",
     "featured_products",
     "27e39f97-e939-469e-b23e-bf256fd41c30",
