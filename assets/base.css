@@ -381,6 +381,12 @@ h5,
   font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
 }
 
+/* Navigation Bar */
+
+.header__menu-item {
+  font-weight: bold;
+}
+
 .h0 {
   font-size: calc(var(--font-heading-scale) * 4rem);
 }
