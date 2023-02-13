@@ -26,6 +26,13 @@
             "picker_type": "button"
           }
         },
+        "5d6b0353-915f-461b-a9ec-d523b73191d4": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Guide",
+            "page": "size-guide"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -94,6 +101,7 @@
         "vendor",
         "price",
         "variant_picker",
+        "5d6b0353-915f-461b-a9ec-d523b73191d4",
         "quantity_selector",
         "buy_buttons",
         "description",
