@@ -293,10 +293,11 @@
                               </label>
                            {% endif %}
                         {%- endfor -%}
-                        {% comment %} TODO: insert size chart here {% endcomment %}
+                        {% comment %} alternate size guide 
                         {% if option.name contains 'Size' %}
                           <a id="size-guide-button" class="trigger-pop-up btn">Size Guide</a>
                         {% endif %}
+                        {% endcomment %}
                       </fieldset>
                   {%- endfor -%}
                   <script type="application/json">
