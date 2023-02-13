@@ -264,7 +264,7 @@
         "width": "normal",
         "color_scheme": "accent-2",
         "layout": "image_first",
-        "icon": "shopify:\/\/shop_images\/cloud_icon_ea1d8965-8575-4667-8fb2-d7efc0497df5.png"
+        "icon": "shopify:\/\/shop_images\/Icons_2-08_b70e640f-606a-4024-86c8-50a33a0b1225.png"
       }
     },
     "1635150566ca3b3138": {
@@ -299,7 +299,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/home-collection-callout-1.jpg",
         "layout": "image_first",
-        "icon": "shopify:\/\/shop_images\/icon_moon.png",
+        "icon": "shopify:\/\/shop_images\/Icons_2-10.png",
         "icon_position": "top_left",
         "icon_size": 50
       }
@@ -336,7 +336,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/home-collection-callout-2.jpg",
         "layout": "text_first",
-        "icon": "shopify:\/\/shop_images\/icon_star.png",
+        "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
         "icon_position": "top_left",
         "icon_size": 50
       }
@@ -373,7 +373,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/home-collection-callout-3.jpg",
         "layout": "image_first",
-        "icon": "shopify:\/\/shop_images\/product_callout_banner_icon_d1dd912b-67bb-4fd4-b1c4-7f332280b792.png",
+        "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
         "icon_position": "bottom_right",
         "icon_size": 95
       }
