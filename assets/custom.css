@@ -16,8 +16,8 @@
   padding: 1.2rem 1.9rem; 
 }
 
-/* NEW ADDITION banners */
-h2 .image-with-text__heading {
+/* announcement bar */
+.announcement-bar__message {
   font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
 }
 
