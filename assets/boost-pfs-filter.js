@@ -391,7 +391,6 @@ var boostPFSFilterConfig = {
 			FilterApi.setParam('sort', jQ(this).data('sort'));
 			FilterApi.setParam('page', 1);
 			FilterApi.applyFilter('sort');
-           jQ('.boost-pfs-sorting-label-text').show();
 		});
 
 		jQ(".boost-pfs-filter-custom-sorting > button").click(function() {
