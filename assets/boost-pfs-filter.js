@@ -380,7 +380,7 @@ var boostPFSFilterConfig = {
 			labelSort = Labels.sorting_heading;
 		}
 
-		jQ('.boost-pfs-filter-custom-sorting button span span').text(labelSort);
+		jQ('.boost-pfs-filter-custom-sorting button span span').text('');
 	}
 
 	// Build Sorting event
