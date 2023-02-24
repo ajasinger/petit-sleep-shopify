@@ -371,16 +371,16 @@ var boostPFSFilterConfig = {
 			jQ('.boost-pfs-filter-custom-sorting').toggleClass('boost-pfs-filter-sort-active');
 		}
 
-		// var labelSort = '';
-		// var paramSort = Globals.queryParams.sort || '';
-		// var sortingList = Utils.getSortingList();
-		// if (paramSort.length > 0 && sortingList && sortingList[paramSort]) {
-		// 	labelSort = sortingList[paramSort];
-		// } else {
-		// 	labelSort = Labels.sorting_heading;
-		// }
+		var labelSort = '';
+		var paramSort = Globals.queryParams.sort || '';
+		var sortingList = Utils.getSortingList();
+		if (paramSort.length > 0 && sortingList && sortingList[paramSort]) {
+			labelSort = sortingList[paramSort];
+		} else {
+			labelSort = Labels.sorting_heading;
+		}
 
-		// jQ('.boost-pfs-filter-custom-sorting button span span').text('');
+		jQ('.boost-pfs-filter-custom-sorting button span span').text('labelSort');
 	}
 
 	// Build Sorting event
@@ -391,17 +391,6 @@ var boostPFSFilterConfig = {
 			FilterApi.setParam('sort', jQ(this).data('sort'));
 			FilterApi.setParam('page', 1);
 			FilterApi.applyFilter('sort');
-
-          var labelSort = '';
-		var paramSort = Globals.queryParams.sort || '';
-		var sortingList = Utils.getSortingList();
-		if (paramSort.length > 0 && sortingList && sortingList[paramSort]) {
-			labelSort = sortingList[paramSort];
-		} else {
-			labelSort = Labels.sorting_heading;
-		}
-
-		jQ('.boost-pfs-filter-custom-sorting button span span').text(labelSort);
 		});
 
 		jQ(".boost-pfs-filter-custom-sorting > button").click(function() {
