@@ -379,7 +379,9 @@ var boostPFSFilterConfig = {
 		} else {
 			labelSort = Labels.sorting_heading;
 		}
-
+        if (window.location.href.includes('sort=')){
+          labelSort = '';
+        }
 		jQ('.boost-pfs-filter-custom-sorting button span span').text(labelSort);
 	}
 
