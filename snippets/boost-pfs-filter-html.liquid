@@ -85,7 +85,7 @@
 
 {%- when 'sortingHtml' -%}
 
-<button class="boost-pfs-filter-top-sorting-wrapper" aria-label="{%- assign temp = 'collections.sorting.title' | t  -%} {%- unless temp contains 'translation missing'  -%} {{- temp -}} {%- else -%} Sorting {%- endunless -%}"><span aria-hidden="true"><span aria-hidden="true"> {%- assign temp = 'collections.sorting.title' | t  -%} {%- unless temp contains 'translation missing'  -%} {{- temp -}} {%- else -%} Sorting {%- endunless -%}</span></span></button>
+<button class="boost-pfs-filter-top-sorting-wrapper" aria-label="{%- assign temp = 'collections.sorting.title' | t  -%} {%- unless temp contains 'translation missing'  -%} {{- temp -}} {%- else -%} Sorting {%- endunless -%}"><span aria-hidden="true"><span style="display: none;" aria-hidden="true"> {%- assign temp = 'collections.sorting.title' | t  -%} {%- unless temp contains 'translation missing'  -%} {{- temp -}} {%- else -%} Sorting {%- endunless -%}</span></span></button>
 {% raw %}
 <ul class="boost-pfs-filter-filter-dropdown">{{sortingItems}}</ul>
 {% endraw %}
