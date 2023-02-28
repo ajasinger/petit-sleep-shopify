@@ -52,15 +52,22 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "not shown for now: Quick Links",
+              "heading": "THE COMPANY",
               "menu": "footer"
             }
           },
           "6b6bdbe8-1d98-4a7c-8331-cc89399e3bb2": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "CUSTOMER CARE",
               "menu": "footer-menu-2"
+            }
+          },
+          "080e8e66-287f-4c84-abfb-49535328e7b8": {
+            "type": "text",
+            "settings": {
+              "heading": "CONTACT US",
+              "subtext": "<p>1 888 WE SLEEP<\/p><p>(1 888 - 937 - 5337)<\/p><p>MON - FRI: 10am - 6pm EST<\/p><p>sleep@petitsleep.com<\/p>"
             }
           },
           "53bde6cd-985e-41a6-84b5-5e088223b019": {
@@ -75,13 +82,14 @@
             "type": "text",
             "settings": {
               "heading": "Not shown for now (call pirco)",
-              "subtext": "<p><a href=\"mailto:sleep@petitsleep.com\" title=\"mailto:sleep@petitsleep.com\">sleep@petitsleep.com<\/a><\/p>"
+              "subtext": ""
             }
           }
         },
         "block_order": [
           "footer-0",
           "6b6bdbe8-1d98-4a7c-8331-cc89399e3bb2",
+          "080e8e66-287f-4c84-abfb-49535328e7b8",
           "53bde6cd-985e-41a6-84b5-5e088223b019",
           "footer-1"
         ],
