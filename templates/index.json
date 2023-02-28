@@ -128,6 +128,7 @@
     },
     "f84c2337-65be-48d4-aa92-e2f240a47337": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\nvideo {\ndisplay: block;\nmargin: 0 auto;\nwidth: 100%;\nheight: 50%;\n}\n<\/style>\n\n<video autoplay loop playsinline muted>\n<source src= \"UPLOADED VIDEO LINK HERE\">\n<\/video>"
       }
