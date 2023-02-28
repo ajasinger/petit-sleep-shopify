@@ -122,14 +122,14 @@
         "48ecf7dc-91e0-4671-a430-a679b49500b1": {
           "type": "sub_icon",
           "settings": {
-            "icon_file": "shopify:\/\/shop_images\/sub_icon_crib.png",
+            "icon_file": "shopify:\/\/shop_images\/Icons_2-15.png",
             "sub_icon_position": "top_left"
           }
         },
         "c00a666f-4499-4c64-bcfc-5d1f8cac5ff1": {
           "type": "sub_icon",
           "settings": {
-            "icon_file": "shopify:\/\/shop_images\/sub_icon_bed.png",
+            "icon_file": "shopify:\/\/shop_images\/Icons_2-16.png",
             "sub_icon_position": "bottom_right"
           }
         }
