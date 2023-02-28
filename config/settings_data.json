@@ -10,6 +10,9 @@
     "type_header_font": "domine_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1200",
+    "social_facebook_link": "https:\/\/www.facebook.com\/petitsleep",
+    "social_instagram_link": "https:\/\/www.instagram.com\/petitsleep",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/petitsleep",
     "favicon": "shopify:\/\/shop_images\/cloud_icon_ea1d8965-8575-4667-8fb2-d7efc0497df5.png",
     "currency_code_enabled": false,
     "sections": {
@@ -85,8 +88,8 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Sign up to receive news on the latest sales, new products, bedtime stories & more.",
-          "show_social": false,
+          "newsletter_heading": "SLEEP BETTER WITH US",
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": false,
           "payment_enable": false
