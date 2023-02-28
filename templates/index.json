@@ -81,51 +81,6 @@
         "show_text_below": true
       }
     },
-    "1019ccdf-afb3-4779-8073-612817d19a15": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Side by Side Banner 2",
-            "heading_size": "medium"
-          }
-        },
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-1": {
-          "type": "text",
-          "settings": {
-            "text": "Sample detail text."
-          }
-        },
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP CRIB SHEET",
-            "button_link_1": "shopify:\/\/products\/crib-sheet",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-0",
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-1",
-        "template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-2"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/home_callout_1.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "f84c2337-65be-48d4-aa92-e2f240a47337": {
       "type": "custom-liquid",
       "disabled": true,
@@ -425,7 +380,6 @@
   "order": [
     "1634905274161eb836",
     "61737c72-157f-4fa6-a0a8-4e62a64d2973",
-    "1019ccdf-afb3-4779-8073-612817d19a15",
     "f84c2337-65be-48d4-aa92-e2f240a47337",
     "rich_text",
     "featured_products",
