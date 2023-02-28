@@ -72,18 +72,18 @@
               "alignment": "center"
             }
           },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Not shown for now (call pirco)",
-              "subtext": ""
-            }
-          },
           "080e8e66-287f-4c84-abfb-49535328e7b8": {
             "type": "text",
             "settings": {
               "heading": "CONTACT US",
               "subtext": "<p>1 888 WE SLEEP<\/p><p>(1 888 - 937 - 5337)<\/p><p>MON - FRI: 10am - 6pm EST<\/p><p>sleep@petitsleep.com<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Not shown for now (call pirco)",
+              "subtext": ""
             }
           }
         },
@@ -91,8 +91,8 @@
           "footer-0",
           "6b6bdbe8-1d98-4a7c-8331-cc89399e3bb2",
           "53bde6cd-985e-41a6-84b5-5e088223b019",
-          "footer-1",
-          "080e8e66-287f-4c84-abfb-49535328e7b8"
+          "080e8e66-287f-4c84-abfb-49535328e7b8",
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",
