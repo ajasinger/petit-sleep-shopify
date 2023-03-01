@@ -1,0 +1,51 @@
+.section-image-banner .section-outer {
+    padding: 0;
+    position: relative;
+  }
+  .section-image-banner .section-content {
+    display: grid;
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .section-image-banner .section-header {
+    max-width: 125ch;
+  }
+  .section-image-banner .section-header-background {
+    background-color: rgba(var(--header-background), 0.8);
+  }
+  .section-header-background .section-heading,
+  .section-header-background .section-subheading {
+    line-height: 1;
+    padding: 0.5rem;
+  }
+  
+  .content-horizontal--center {
+    justify-items: center;
+    text-align: center;
+  }
+  .content-horizontal--left {
+    justify-items: start;
+    text-align: left;
+  }
+  .content-horizontal--right {
+    justify-items: end;
+    text-align: right;
+  }
+  .content-vertical--center {
+    align-items: center;
+  }
+  .content-vertical--top {
+    align-items: start;
+  }
+  .content-vertical--bottom {
+    align-items: end;
+  }
+  
+  .image-banner-overlay {
+    background-color: rgba(var(--color-background), var(--alpha-default));
+    inset: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    z-index: 0;
+  }
