@@ -229,6 +229,10 @@ h1.product__title { margin-bottom: 0; font-size: calc(var(--font-heading-scale) 
   font-size: 1.4rem;
 }
 
+.footer-block__details-content {
+  text-align:left;
+}
+
 #NewsletterForm--footer {
   background-color: #C0E0EE;
 }
