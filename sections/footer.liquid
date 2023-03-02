@@ -18,7 +18,6 @@
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {% comment %}
-
         <img class=" fadeIn" src="https://cdn.shopify.com/s/files/1/0556/8672/5782/files/newsletter_lets-keep-in-in-touch_icon_e4dc2f5e-bc3f-4f62-9dd5-2ad12b1e1cc8.png?v=1635163650" style="max-width: 160px; margin: 3vh auto 0; display: block;" />
       {% endcomment %}
 
@@ -253,15 +252,6 @@
                         >&copy; {{ 'now' | date: '%Y' }}
                         {{ shop.name | link_to: routes.root_url -}}
                       </small>
-                      <div class="credits">
-                        <div class="credits-trigger"><small>Credits</small></div>
-                        <div class="credits-text">
-                          <small class="copyright__content"
-                            >Website by <a href="https://studiorisley.com" target="_blank">Studio Risley</a> and
-                            <a href="https://piroc.com" target="_blank">piroc media</a></small
-                          >
-                        </div>
-                      </div>
                     </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank and block.settings.heading != blank -%}
@@ -305,7 +295,6 @@
   {%- endif -%}
 
   {% comment %}
-
     uncomment to display localization and payment options
 
 
