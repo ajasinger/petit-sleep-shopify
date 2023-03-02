@@ -171,7 +171,7 @@
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.heading != blank -%}
-                  {% comment %} not shown for now <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2> {% endcomment %}
+                  <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
