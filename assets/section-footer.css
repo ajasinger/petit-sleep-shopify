@@ -15,9 +15,9 @@
 */
 
 .footer__content-middle {
-	 background: #1f4499; color: #98afd8; padding-bottom: 5rem; padding-top: 5rem; display: block; 
+	 background: #1f4499; color: #C0E0EE; padding-bottom: 5rem; padding-top: 5rem; display: block; 
 }
-.footer__content-middle a { color: #98afd8!important; }
+.footer__content-middle a { color: #C0E0EE!important; }
 
 @media screen and (max-width: 749px) {
   .footer .grid {
