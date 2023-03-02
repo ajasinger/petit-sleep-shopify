@@ -22,7 +22,7 @@
       {% endcomment %}
 
       <div class="footer-block--newsletter">
-        {% comment %} TODO: move this down into the footer where you want the newsletter, and restyle {% endcomment %}
+        {% comment %} move newsletter to text block {% endcomment %}
         {% comment %}
           moved this section into footer block
           {%- if section.settings.newsletter_enable -%}
@@ -177,7 +177,7 @@
                 {%- case block.type -%}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte textRight">
-                      {% comment %} TODO: possibly put newsletter here? {% endcomment %}
+                      {% comment %} newsletter {% endcomment %}
                       {%- if block.settings.newsletter_enable -%}
                         <div class="footer-block__newsletter">
                           {%- if section.settings.newsletter_heading != blank -%}
