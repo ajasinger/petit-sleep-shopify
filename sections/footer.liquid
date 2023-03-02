@@ -175,11 +175,10 @@
                 {%- endif -%}
 
                 {%- case block.type -%}
-                  {%- when 'newsletter_contact' -%}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte textRight">
                       {% comment %} TODO: possibly put newsletter here? {% endcomment %}
-                      {%- if section.settings.newsletter_enable -%}
+                      {%- if block.settings.newsletter_enable -%}
                         <div class="footer-block__newsletter">
                           {%- if section.settings.newsletter_heading != blank -%}
                             <h2 class="footer-block__heading fadeIn">
@@ -247,12 +246,14 @@
                       {%- endif -%}
                       {{ block.settings.subtext }}
                     </div>
-                    <div class="footer-block__copyright textRight">
-                      <small class="copyright__content"
-                        >&copy; {{ 'now' | date: '%Y' }}
-                        {{ shop.name | link_to: routes.root_url -}}
-                      </small>
-                    </div>
+                    {%- if block.settings.copyright_enable -%}
+                      <div class="footer-block__copyright textRight">
+                        <small class="copyright__content"
+                          >&copy; {{ 'now' | date: '%Y' }}
+                          {{ shop.name | link_to: routes.root_url -}}
+                        </small>
+                      </div>
+                    {%- endif -%}
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank and block.settings.heading != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -480,11 +481,23 @@
           "info": "t:sections.footer.blocks.link_list.settings.heading.info"
         },
         {
+          "type": "checkbox",
+          "id": "newsletter_enable",
+          "label": "Enable email newsletter",
+          "default": false
+        },
+        {
           "type": "link_list",
           "id": "menu",
           "default": "footer",
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "copyright_enable",
+          "label": "Enable copyright",
+          "default": false
         }
       ]
     },
