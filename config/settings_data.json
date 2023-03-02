@@ -76,14 +76,18 @@
             "type": "text",
             "settings": {
               "heading": "CONTACT US",
-              "subtext": "<p>1 888 WE SLEEP<\/p><p>(1 888 - 937 - 5337)<\/p><p>MON - FRI: 10am - 6pm EST<\/p><p>sleep@petitsleep.com<\/p>"
+              "newsletter_enable": false,
+              "subtext": "<p>1 888 WE SLEEP<\/p><p>(1 888 - 937 - 5337)<\/p><p>MON - FRI: 10am - 6pm EST<\/p><p>sleep@petitsleep.com<\/p>",
+              "copyright_enable": false
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Not shown for now (call pirco)",
-              "subtext": ""
+              "heading": "",
+              "newsletter_enable": true,
+              "subtext": "",
+              "copyright_enable": true
             }
           }
         },
