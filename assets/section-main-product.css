@@ -749,9 +749,9 @@ a.product__text {
   }
 }
 
-.product-popup-modal__opener {
+/* .product-popup-modal__opener {
   display: inline-block;
-}
+} */
 
 .product-popup-modal__button {
   font-size: 1.2rem;
