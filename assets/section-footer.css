@@ -173,6 +173,12 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .footer-block__heading {
+    text-align: center;
+  }
+}
+
 .footer__list-social:empty,
 .footer-block--newsletter:empty {
   display: none;
