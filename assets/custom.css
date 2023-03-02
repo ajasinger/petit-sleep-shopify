@@ -223,17 +223,22 @@ h1.product__title { margin-bottom: 0; font-size: calc(var(--font-heading-scale) 
   color: #C0E0EE;
   font-family: "canada-type-gibson", var(--font-body-family), sans-serif;
 }
+
+.footer-block {
+  color: #C0E0EE;
+}
+
 #NewsletterForm--footer {
-  background-color: white;
+  background-color: #C0E0EE;
 }
 .footer-block--newsletter { margin-bottom: 0vh; }
 .footer-block.grid__item:last-child { display: flex; flex-direction: column; }
 .footer-block__copyright { margin-top: auto; }
 
-.footer__content-middle .footer-block-image img { 
+/* .footer__content-middle .footer-block-image img { 
   padding: 2rem;
   max-width: 225px!important; 
-}
+} */
 
 .credits {
   overflow: hidden; height: 24px; text-align: right;
