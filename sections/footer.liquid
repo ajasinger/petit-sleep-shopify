@@ -481,23 +481,11 @@
           "info": "t:sections.footer.blocks.link_list.settings.heading.info"
         },
         {
-          "type": "checkbox",
-          "id": "newsletter_enable",
-          "label": "Enable email newsletter",
-          "default": false
-        },
-        {
           "type": "link_list",
           "id": "menu",
           "default": "footer",
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
-        },
-        {
-          "type": "checkbox",
-          "id": "copyright_enable",
-          "label": "Enable copyright",
-          "default": false
         }
       ]
     },
@@ -512,10 +500,22 @@
           "label": "t:sections.footer.blocks.text.settings.heading.label"
         },
         {
+          "type": "checkbox",
+          "id": "newsletter_enable",
+          "label": "Enable email newsletter",
+          "default": false
+        },
+        {
           "type": "richtext",
           "id": "subtext",
           "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "copyright_enable",
+          "label": "Enable copyright",
+          "default": false
         }
       ]
     },
