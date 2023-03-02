@@ -86,7 +86,7 @@
             "settings": {
               "heading": "",
               "newsletter_enable": true,
-              "subtext": "",
+              "subtext": "<p><em><strong>Sign up<\/strong><\/em> for exclusive deals & early access to new products<\/p>",
               "copyright_enable": true
             }
           }
