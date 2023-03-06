@@ -246,7 +246,7 @@
                       {%- endif -%}
                       {{ block.settings.subtext }}
                       {% comment %} social icons {% endcomment %}
-                      {%- if section.settings.show_social -%}
+                      {%- if section.settings.show_social_enable -%}
                         <ul class="footer__list-social list-unstyled list-social" role="list">
                           {%- if settings.social_twitter_link != blank -%}
                             <li class="list-social__item">
@@ -589,6 +589,12 @@
           "id": "subtext",
           "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social_enable",
+          "label": "Enable social icons",
+          "default": false
         },
         {
           "type": "checkbox",
