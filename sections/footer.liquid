@@ -185,11 +185,6 @@
                               {{ section.settings.newsletter_heading | escape }}
                             </h2>
                           {%- endif -%}
-                          {%- if section.settings.newsletter_text != blank -%}
-                            <h2 class="footer-block__text fadeIn">
-                              {{ section.settings.newsletter_text | escape }}
-                            </h2>
-                          {%- endif -%}
                           {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                             <input type="hidden" name="contact[tags]" value="newsletter">
                             <div class="newsletter-form__field-wrapper fadeInUp">
@@ -696,12 +691,6 @@
       "id": "newsletter_heading",
       "default": "Subscribe to our emails",
       "label": "t:sections.footer.settings.newsletter_heading.label"
-    },
-    {
-      "type": "text",
-      "id": "newsletter_text",
-      "default": "Subscribe to our emails",
-      "label": "Newsletter text"
     },
     {
       "type": "header",
