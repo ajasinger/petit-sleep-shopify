@@ -22,7 +22,7 @@
       {% endcomment %}
 
       <div class="footer-block--newsletter">
-        {% comment %} move newsletter to text block {% endcomment %}
+        {% comment %} UNCOMMENT for newsletter sign-up above footer {% endcomment %}
         {% comment %}
           moved this section into footer block
           {%- if section.settings.newsletter_enable -%}
@@ -73,6 +73,7 @@
           {%- endif -%}
         {% endcomment %}
 
+        {% comment %} UNCOMMENT to show social icons in block above footer {% endcomment %}
         {% comment %}
           {%- if section.settings.show_social -%}
             <ul class="footer__list-social list-unstyled list-social" role="list">
