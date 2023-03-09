@@ -39,66 +39,36 @@
     "74893698-afc0-40d6-8129-af378c4d456c": {
       "type": "double-image-banner",
       "blocks": {
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-0": {
-          "type": "heading",
+        "077b370c-4e99-427d-972f-d35d97b5ec0c": {
+          "type": "banner",
           "settings": {
-            "heading": "Image banner 1",
-            "heading_size": "medium"
+            "image": "shopify:\/\/shop_images\/baby-shoes.jpg",
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         },
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-1": {
-          "type": "text",
+        "b6d2689c-2d6d-42e3-9eff-1ddc3578f8c3": {
+          "type": "banner",
           "settings": {
-            "text": "text 1"
-          }
-        },
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button 1",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "0f33d5dd-0cfd-4fbf-8a44-4fdc8148baad": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner 2",
-            "heading_size": "medium"
-          }
-        },
-        "7693ccbf-4b6d-421f-8536-c6a1ec547e2c": {
-          "type": "text",
-          "settings": {
-            "text": "text 2"
-          }
-        },
-        "897b1c9b-ddd3-45f7-8c98-8e0fec9e8ee7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button 2",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/collection-hero-shopAll.jpg",
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-0",
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-1",
-        "template--15929309429910__74893698-afc0-40d6-8129-af378c4d456c-16781357892e982f4e-2",
-        "0f33d5dd-0cfd-4fbf-8a44-4fdc8148baad",
-        "7693ccbf-4b6d-421f-8536-c6a1ec547e2c",
-        "897b1c9b-ddd3-45f7-8c98-8e0fec9e8ee7"
+        "077b370c-4e99-427d-972f-d35d97b5ec0c",
+        "b6d2689c-2d6d-42e3-9eff-1ddc3578f8c3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/baby-shoes.jpg",
-        "image_2": "shopify:\/\/shop_images\/collection-hero-shopAll.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
