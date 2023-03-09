@@ -79,50 +79,6 @@
         "show_text_below": true
       }
     },
-    "620011a0-1a13-4aa2-a9fe-b238905b82ee": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-0",
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-1",
-        "template--15929309429910__620011a0-1a13-4aa2-a9fe-b238905b82ee-16783837276fb860c9-2"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "f84c2337-65be-48d4-aa92-e2f240a47337": {
       "type": "custom-liquid",
       "disabled": true,
@@ -437,7 +393,6 @@
   "order": [
     "1634905274161eb836",
     "74893698-afc0-40d6-8129-af378c4d456c",
-    "620011a0-1a13-4aa2-a9fe-b238905b82ee",
     "f84c2337-65be-48d4-aa92-e2f240a47337",
     "rich_text",
     "featured_products",
