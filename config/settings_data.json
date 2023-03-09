@@ -78,6 +78,7 @@
               "heading": "CONTACT US",
               "newsletter_enable": false,
               "subtext": "<p>1 888 WE SLEEP<\/p><p>(1 888 - 937 - 5337)<\/p><p>MON - FRI: 10am - 6pm EST<\/p><p>sleep@petitsleep.com<\/p>",
+              "show_social_enable": true,
               "copyright_enable": false
             }
           },
@@ -87,6 +88,7 @@
               "heading": "",
               "newsletter_enable": true,
               "subtext": "<p><em><strong>Sign up<\/strong><\/em> for exclusive deals & early access to new products<\/p>",
+              "show_social_enable": false,
               "copyright_enable": true
             }
           }
