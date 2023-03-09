@@ -57,9 +57,9 @@
             "image": "shopify:\/\/shop_images\/collection-hero-shopAll.jpg",
             "heading": "Image banner",
             "heading_size": "medium",
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "button_label": "Button label",
-            "button_link": "",
+            "text": "Image details",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/toddler-sheet-planes-trains-dinos",
             "button_style_secondary": false
           }
         }
