@@ -125,6 +125,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "We think you'll love",
         "collection": "all",
