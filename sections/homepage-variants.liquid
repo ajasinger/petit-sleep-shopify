@@ -1,0 +1,131 @@
+<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-product-grid.css' | asset_url }}" media="print" onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'section-product-recommendations.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
+
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% comment %} Gives this a variable because we'll be using it to loop over metafield values {% endcomment %}
+{%- assign recommended_variants = section.settings.product.metafields.petitsleep.recommended_variants.value -%}
+{% comment %} Makes sure we have values set {% endcomment %}
+{%- if recommended_variants.count > 0 -%}
+  <div class="product-recommendations page-width">
+    <h2 class="product-recommendations__heading textCenter">{{ section.settings.heading | escape }}</h2>
+    <ul
+      class="grid grid--2-col product-grid{% if recommended_variants.count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ recommended_variants.count }}-col-tablet{% endif %}"
+      role="list"
+    >
+      {%- for variant in recommended_variants -%}
+        <li class="grid__item">
+          {% comment %}
+            Uncomment the following <code></code> line to see what the variant object contains or look here: https://shopify.dev/docs/api/liquid/objects/variant
+          {% endcomment %}
+          {% comment %} <code>{{ variant | json }}</code> {% endcomment %}
+          {% render 'product-card-variant',
+            product_card_product: variant.product,
+            product_card_variant: variant,
+            media_size: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            add_image_padding: section.settings.add_image_padding,
+            show_vendor: section.settings.show_vendor,
+            show_image_outline: section.settings.show_image_outline,
+            show_rating: section.settings.show_rating
+          %}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.product-recommendations.name",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.product-recommendations.settings.paragraph__1.content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "You may also like",
+      "label": "t:sections.product-recommendations.settings.heading.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.product-recommendations.settings.header__2.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.product-recommendations.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_image_padding",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.add_image_padding.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_outline",
+      "default": true,
+      "label": "t:sections.product-recommendations.settings.show_image_outline.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_rating.label",
+      "info": "t:sections.product-recommendations.settings.show_rating.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured prints"
+    }
+  ]
+}
+{% endschema %}

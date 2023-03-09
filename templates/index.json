@@ -139,6 +139,19 @@
         "show_rating": false
       }
     },
+    "e09f7344-7191-43b0-b6d3-1040e67deb49": {
+      "type": "homepage-variants",
+      "settings": {
+        "product": "crib-sheet",
+        "heading": "Featured Prints",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "27e39f97-e939-469e-b23e-bf256fd41c30": {
       "type": "multicolumn",
       "disabled": true,
@@ -382,6 +395,7 @@
     "f84c2337-65be-48d4-aa92-e2f240a47337",
     "rich_text",
     "featured_products",
+    "e09f7344-7191-43b0-b6d3-1040e67deb49",
     "27e39f97-e939-469e-b23e-bf256fd41c30",
     "163490557324550370",
     "1635150566ca3b3138",
