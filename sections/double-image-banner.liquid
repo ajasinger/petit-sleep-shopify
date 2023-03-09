@@ -35,7 +35,7 @@
 >
   {%- for block in section.blocks -%}
     {%- if block.settings.image != blank -%}
-      <div class="banner__media media{% if block.settings.image == blank and block.settings.image_2 == blank %} placeholder{% endif %}{% if block.settings.image_2 != blank %} banner__media-half{% endif %}">
+      <div class="banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if block.settings.image != blank %} banner__media-half{% endif %}">
         <img
           srcset="
             {%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
