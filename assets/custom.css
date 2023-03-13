@@ -79,7 +79,7 @@ h1.product__title { margin-bottom: 0; font-size: calc(var(--font-heading-scale) 
 
 /* PDP primary button */
 .product-form__submit.button--primary {
-  padding: 0.9rem 8rem 1.1rem;
+  padding: 0.9rem 14.5rem 1.1rem;
 }
 
 /* accordion tabs on PDP */
