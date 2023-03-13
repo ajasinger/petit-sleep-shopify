@@ -78,8 +78,22 @@ h1.product__title { margin-bottom: 0; font-size: calc(var(--font-heading-scale) 
 }
 
 /* PDP primary button */
-.product-form__submit.button--primary {
-  padding: 0.9rem 14.5rem 1.1rem;
+@media screen and (max-width: 749px) {
+  .product-form__submit.button--primary {
+    padding: 0.9rem 4rem 1.1rem;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .product-form__submit.button--primary {
+    padding: 0.9rem 3rem 1.1rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .product-form__submit.button--primary {
+    padding: 0.9rem 9rem 1.1rem;
+  }
 }
 
 /* accordion tabs on PDP */
