@@ -374,9 +374,6 @@ h5,
 
 /* Navigation Bar */
 
-.header__menu-item {
-  font-weight: bold;
-}
 
 .h0 {
   font-size: calc(var(--font-heading-scale) * 4rem);
