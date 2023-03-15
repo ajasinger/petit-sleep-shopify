@@ -257,8 +257,7 @@ var boostPFSFilterConfig = {
         var customLabels = '';
         // Build new label
         var newLabel = '<span class="badge badge--bottom-left color-inverse badge_new" aria-hidden="true">New</span>';
-        
-              
+        customLabels += customLabels;    
 		return customLabels;
     }
 
