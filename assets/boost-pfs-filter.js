@@ -70,10 +70,15 @@ var boostPFSFilterConfig = {
 		itemHtml = itemHtml.replace(/{{itemSoldOut}}/g, buildSoldOutLabel());
 		// Add sale Label
 		itemHtml = itemHtml.replace(/{{itemSale}}/g, buildSaleLabel());
+
+        // Add new label
+        itemHtml = itemHtml.replace(/{{customLabels}}/g, buildCustomLabels()); 
+      
 		// Add Images
 		itemHtml = itemHtml.replace(/{{itemImages}}/g, buildImages(data));
 		// Add Price
 		itemHtml = itemHtml.replace(/{{itemPrice}}/g, buildPrice(data));
+      
 
 		// Add Review
 		if (typeof Integration === 'undefined' ||
@@ -247,6 +252,15 @@ var boostPFSFilterConfig = {
 		}
 		return soldOutLabel;
 	}
+
+    function buildCustomLabels(data) {
+        var customLabels = '';
+        // Build new label
+        var newLabel = '<span class="badge badge--bottom-left color-inverse badge_new" aria-hidden="true">New</span>';
+        
+              
+		return customLabels;
+    }
 
 	function buildSaleLabel() {
 		// Build Sale label
