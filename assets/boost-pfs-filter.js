@@ -72,7 +72,7 @@ var boostPFSFilterConfig = {
 		itemHtml = itemHtml.replace(/{{itemSale}}/g, buildSaleLabel());
 
         // Add new label
-        itemHtml = itemHtml.replace(/{{customLabels}}/g, buildCustomLabels()); 
+        itemHtml = itemHtml.replace(/{{customLabels}}/g, buildCustomLabels(data)); 
       
 		// Add Images
 		itemHtml = itemHtml.replace(/{{itemImages}}/g, buildImages(data));
