@@ -256,7 +256,7 @@ var boostPFSFilterConfig = {
     function buildCustomLabels(data) {
         var customLabels = '';
         // Build new label
-        var newLabel = '<span class="badge badge--bottom-left color-inverse badge_new" aria-hidden="true">New</span>';
+        var newLabel = '<span style="background-color: #C0E0EE;" class="badge badge--bottom-left color-inverse badge_new" aria-hidden="true">New</span>';
         customLabels += newLabel;    
 		
         return customLabels;
