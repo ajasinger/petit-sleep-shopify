@@ -78,7 +78,7 @@
   width: 50%;
 }
 
-.banner__media-half + .banner__content + .banner__media-half {
+.banner__media-half ~ .banner__media-half {
   right: 0;
   left: auto;
 }
