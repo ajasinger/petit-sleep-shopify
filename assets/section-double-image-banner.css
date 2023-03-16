@@ -78,7 +78,7 @@
   width: 50%;
 }
 
-.banner__media-half + .banner__media-half {
+.banner__media-half + .banner__content + .banner__media-half {
   right: 0;
   left: auto;
 }
@@ -299,7 +299,6 @@
     padding: 4rem;
     width: auto;
     max-width: 71rem;
-    min-width: 45rem;
     margin: 0 2rem;
   }
 
