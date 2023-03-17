@@ -70,10 +70,15 @@ var boostPFSFilterConfig = {
 		itemHtml = itemHtml.replace(/{{itemSoldOut}}/g, buildSoldOutLabel());
 		// Add sale Label
 		itemHtml = itemHtml.replace(/{{itemSale}}/g, buildSaleLabel());
+
+        // Add new label
+        itemHtml = itemHtml.replace(/{{customLabels}}/g, buildCustomLabels(data)); 
+      
 		// Add Images
 		itemHtml = itemHtml.replace(/{{itemImages}}/g, buildImages(data));
 		// Add Price
 		itemHtml = itemHtml.replace(/{{itemPrice}}/g, buildPrice(data));
+      
 
 		// Add Review
 		if (typeof Integration === 'undefined' ||
@@ -248,6 +253,17 @@ var boostPFSFilterConfig = {
 		return soldOutLabel;
 	}
 
+    function buildCustomLabels(data) {
+        var customLabels = '';
+        // Build new label
+        var hasNewLabel = data.tags.includes('new') || data.tags.includes('New');
+        var newLabel = hasNewLabel ? '<span style="background-color: #C0E0EE; color: #20409A;" class="badge badge--bottom-left color-inverse badge_new" aria-hidden="true">New</span>' : '';
+        
+        customLabels += newLabel;    
+		
+        return customLabels;
+    }
+
 	function buildSaleLabel() {
 		// Build Sale label
 		var saleLabel = '';
@@ -343,29 +359,28 @@ var boostPFSFilterConfig = {
 		return paginationHtml;
 	};
 
-	// Build Sorting
-	ProductSorting.prototype.compileTemplate = function () {
+
+  	// Build Sorting
+	ProductSorting.prototype.compileTemplate = function() {
 		var html = '';
-		if (boostPFSTemplate.hasOwnProperty('sortingHtml')) {
 			var sortingArr = Utils.getSortingList();
 			if (sortingArr) {
 				var paramSort = Globals.queryParams.sort || '';
 				// Build content
 				var sortingItemsHtml = '';
 				for (var k in sortingArr) {
-					var isSelected = ''
-					if(paramSort == k) {
-						isSelected = 'selected="selected"'
+					activeClass = '';
+					if (paramSort == k) {
+						activeClass = 'boost-pfs-filter-sort-item-active';
 					}
-					sortingItemsHtml += '<option value="' + k + '"' + isSelected + '>' + sortingArr[k] + '</option>';
+					sortingItemsHtml += '<li aria-label="' + sortingArr[k] + '"><a href="#" data-sort="' + k + '" class="' + activeClass + '"  title="' + sortingArr[k] + '" aria-label="' + sortingArr[k] + '">' + sortingArr[k] + '</a></li>';
 				}
 				html = boostPFSTemplate.sortingHtml.replace(/{{sortingItems}}/g, sortingItemsHtml);
 			}
-		}
 		return html;
 	};
 
-	ProductSorting.prototype.render = function () {
+	ProductSorting.prototype.render = function() {
 		jQ(Selector.topSorting).html(this.compileTemplate());
 
 		if (jQ('.boost-pfs-filter-custom-sorting').hasClass('boost-pfs-filter-sort-active')) {
@@ -386,12 +401,27 @@ var boostPFSFilterConfig = {
 
 	// Build Sorting event
 	ProductSorting.prototype.bindEvents = function() {
-		jQ(Selector.topSorting + ' .facet-filters__sort').change(function(e) {
+		var _this = this;
+		jQ('.boost-pfs-filter-filter-dropdown a').click(function(e) {
 			e.preventDefault();
-			FilterApi.setParam('sort', jQ(this).val());
+			FilterApi.setParam('sort', jQ(this).data('sort'));
 			FilterApi.setParam('page', 1);
 			FilterApi.applyFilter('sort');
 		});
+
+		jQ(".boost-pfs-filter-custom-sorting > button").click(function() {
+      jQ('.boost-pfs-filter-filter-dropdown').toggle().parent().toggleClass('boost-pfs-filter-sort-active');
+		});
+
+		jQ(Selector.filterTreeMobileButton).click(function() {
+			jQ('.boost-pfs-filter-top-sorting-mobile .boost-pfs-filter-filter-dropdown').hide();
+		});
+
+		jQ(document).on('click', function (e) {
+      if (jQ(e.target).parents('.boost-pfs-filter-top-sorting').find(".boost-pfs-filter-filter-dropdown").length === 0) {
+      	jQ('.boost-pfs-filter-filter-dropdown').hide().parent().removeClass('boost-pfs-filter-sort-active');
+      }
+    });
 	};
 
   // Add additional feature for product list, used commonly in customizing product list

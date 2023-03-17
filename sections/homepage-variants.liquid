@@ -14,7 +14,7 @@
 <noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
 
 {% comment %} Gives this a variable because we'll be using it to loop over metafield values {% endcomment %}
-{%- assign recommended_variants = product.metafields.petitsleep.recommended_variants.value -%}
+{%- assign recommended_variants = section.settings.product.metafields.petitsleep.recommended_variants.value -%}
 {% comment %} Makes sure we have values set {% endcomment %}
 {%- if recommended_variants.count > 0 -%}
   <div class="product-recommendations page-width">
@@ -43,65 +43,7 @@
       {%- endfor -%}
     </ul>
   </div>
-{%- else -%}
-  <product-recommendations
-    class="product-recommendations page-width"
-    data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4"
-  >
-    {% if recommendations.performed and recommendations.products_count > 0 %}
-      <h2 class="product-recommendations__heading textCenter">{{ section.settings.heading | escape }}</h2>
-      <ul
-        class="grid grid--2-col product-grid{% if recommendations.products_count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ recommendations.products_count }}-col-tablet{% endif %}"
-        role="list"
-      >
-        {% for recommendation in recommendations.products %}
-          <li class="grid__item">
-            {% render 'product-card',
-              product_card_product: recommendation,
-              media_size: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              add_image_padding: section.settings.add_image_padding,
-              show_vendor: section.settings.show_vendor,
-              show_image_outline: section.settings.show_image_outline,
-              show_rating: section.settings.show_rating
-            %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </product-recommendations>
 {%- endif -%}
-
-{% javascript %}
-  class ProductRecommendations extends HTMLElement {
-    constructor() {
-      super();
-
-      const handleIntersection = (entries, observer) => {
-        if (!entries[0].isIntersecting) return;
-        observer.unobserve(this);
-
-        fetch(this.dataset.url)
-          .then((response) => response.text())
-          .then((text) => {
-            const html = document.createElement('div');
-            html.innerHTML = text;
-            const recommendations = html.querySelector('product-recommendations');
-            if (recommendations && recommendations.innerHTML.trim().length) {
-              this.innerHTML = recommendations.innerHTML;
-            }
-          })
-          .catch((e) => {
-            console.error(e);
-          });
-      };
-
-      new IntersectionObserver(handleIntersection.bind(this), { rootMargin: '0px 0px 200px 0px' }).observe(this);
-    }
-  }
-
-  customElements.define('product-recommendations', ProductRecommendations);
-{% endjavascript %}
 
 {% schema %}
 {
@@ -109,6 +51,11 @@
   "tag": "section",
   "class": "spaced-section",
   "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
     {
       "type": "paragraph",
       "content": "t:sections.product-recommendations.settings.paragraph__1.content"
@@ -173,6 +120,11 @@
       "default": false,
       "label": "t:sections.product-recommendations.settings.show_rating.label",
       "info": "t:sections.product-recommendations.settings.show_rating.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured prints"
     }
   ]
 }

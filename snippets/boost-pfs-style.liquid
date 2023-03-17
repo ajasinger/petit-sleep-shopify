@@ -153,10 +153,6 @@ fMobileButtonBackgroundColor
       {%- if boost_shop_metafields.fMobileButtonFontFamily != nil and boost_shop_metafields.fMobileButtonFontFamily != blank -%}
         font-family: {{ boost_shop_metafields.fMobileButtonFontFamily | strip | strip_html }} !important;
       {%- endif -%}
-
-      {%- if boost_shop_metafields.fMobileButtonBackgroundColor != nil and boost_shop_metafields.fMobileButtonBackgroundColor != blank -%}
-        background: {{ boost_shop_metafields.fMobileButtonBackgroundColor | replace: '"','' | replace: '||',',' | strip | strip_html }} !important;
-      {%- endif -%}
     }
     .boost-pfs-filter-top-sorting-mobile button>span:after {
       {%- if boost_shop_metafields.fMobileButtonTextColor != nil and boost_shop_metafields.fMobileButtonTextColor != blank -%}

@@ -1,1 +1,407 @@
-{"sections":{"1634905274161eb836":{"type":"hero-image-with-text","blocks":{"1634905274161eb836-0":{"type":"heading","settings":{"heading":"Sweet Bedding. Sweet Dreams."}},"1634905274161eb836-1":{"type":"text","disabled":true,"settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}},"1634905274161eb836-2":{"type":"button","settings":{"button_label":"SHOP NOW","button_link":"shopify:\/\/collections\/all"}}},"block_order":["1634905274161eb836-0","1634905274161eb836-1","1634905274161eb836-2"],"settings":{"image":"shopify:\/\/shop_images\/home_hero.jpg","height":"adapt","color_scheme":"accent-2","layout":"image_first"}},"61737c72-157f-4fa6-a0a8-4e62a64d2973":{"type":"image-banner","blocks":{"template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-0":{"type":"heading","settings":{"heading":"Sweet Bedding. Sweet Dreams.","heading_size":"medium"}},"template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-1":{"type":"text","settings":{"text":"Sample detail text."}},"template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-2":{"type":"buttons","settings":{"button_label_1":"SHOP NOW","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-0","template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-1","template--15921122705558__61737c72-157f-4fa6-a0a8-4e62a64d2973-16734529854ea6aba8-2"],"settings":{"image":"shopify:\/\/shop_images\/collection-hero-shopAll.jpg","image_height":"medium","adapt_height_first_image":false,"desktop_text_box_position":"center","show_text_box":true,"image_overlay_opacity":0,"color_scheme":"accent-1","stack_images_on_mobile":true,"show_text_below":true}},"1019ccdf-afb3-4779-8073-612817d19a15":{"type":"image-banner","blocks":{"template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-0":{"type":"heading","settings":{"heading":"Side by Side Banner 2","heading_size":"medium"}},"template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-1":{"type":"text","settings":{"text":"Sample detail text."}},"template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-2":{"type":"buttons","settings":{"button_label_1":"SHOP CRIB SHEET","button_link_1":"shopify:\/\/products\/crib-sheet","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-0","template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-1","template--15921122705558__1019ccdf-afb3-4779-8073-612817d19a15-16735468378742457c-2"],"settings":{"image_2":"shopify:\/\/shop_images\/home_callout_1.jpg","image_height":"medium","adapt_height_first_image":false,"desktop_text_box_position":"center","show_text_box":true,"image_overlay_opacity":0,"color_scheme":"accent-1","stack_images_on_mobile":true,"show_text_below":true}},"304c206f-b911-4df3-8837-adfdd0519fc4":{"type":"video","disabled":true,"settings":{"heading":"","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"","full_width":true}},"56cbdb13-d97b-4423-a372-e5e47546724c":{"type":"rich-text","disabled":true,"blocks":{"template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-0":{"type":"heading","settings":{"heading":"Sweet Bedding. Sweet Dreams.","heading_size":"h2"}},"template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-1":{"type":"text","settings":{"text":"<p>Video description goes here.<\/p>"}},"template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-2":{"type":"button","settings":{"button_label":"Shop Now","button_link":"shopify:\/\/collections","button_style_secondary":false}}},"block_order":["template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-0","template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-1","template--15921122705558__56cbdb13-d97b-4423-a372-e5e47546724c-16734561527f34885f-2"],"settings":{"color_scheme":"accent-2","full_width":true,"padding_top":true}},"rich_text":{"type":"rich-text","disabled":true,"blocks":{"heading":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading","text","button"],"settings":{"color_scheme":"background-1","full_width":true,"padding_top":true}},"featured_products":{"type":"featured-collection","settings":{"title":"We think you'll love","collection":"all","products_to_show":4,"show_view_all":true,"swipe_on_mobile":true,"image_ratio":"portrait","show_secondary_image":true,"add_image_padding":true,"show_image_outline":true,"show_vendor":false,"show_rating":false}},"27e39f97-e939-469e-b23e-bf256fd41c30":{"type":"multicolumn","blocks":{"template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/baby-shoes.jpg","title":"Print 1","text":""}},"template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/home_callout_1.jpg","title":"Print 2","text":""}},"template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/home_hero.jpg","title":"Print 3","text":""}}},"block_order":["template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-0","template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-1","template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-2"],"settings":{"title":"We think you'll love","image_width":"full","image_ratio":"portrait","column_alignment":"center","background_style":"none","button_label":"SHOP ALL","button_link":"shopify:\/\/collections\/all","swipe_on_mobile":false}},"163490557324550370":{"type":"image-with-text","blocks":{"163490557324550370-0":{"type":"heading","settings":{"heading":"We provide parents and kids with a better night’s sleep."}},"163490557324550370-1":{"type":"text","settings":{"text":"<p>Our sheets are made from Lenzing™ Modal. The material is derived from a closed loop process that transforms raw beech tree pulp — a renewable resource — into TENCEL Lyocell fibers. The sheets are printed using AZO-Free dyes, and certified by OEKO-TEX®, one of the best-known textile labels that tests for harmful substances. With a buttery soft, perfectly-fitting sheet, we bring the magic and joy of youthfulness to bedtime, making sleep more enjoyable for little ones—and their parents.<\/p>"}},"163490557324550370-2":{"type":"button","settings":{"button_label":"ABOUT US","button_link":"#"}}},"block_order":["163490557324550370-0","163490557324550370-1","163490557324550370-2"],"settings":{"image":"shopify:\/\/shop_images\/home_callout_1.jpg","height":"default","header_size":"small","width":"normal","color_scheme":"accent-2","layout":"image_first","icon":"shopify:\/\/shop_images\/cloud_icon_ea1d8965-8575-4667-8fb2-d7efc0497df5.png"}},"1635150566ca3b3138":{"type":"home-collection-callout","blocks":{"1635150566ca3b3138-0":{"type":"heading","settings":{"heading":"Ultra-soft and sustainable fabrics so your baby sleeps peacefully allowing parents to rest easily."}},"1635150566ca3b3138-1":{"type":"text","disabled":true,"settings":{"text":""}},"1635150566ca3b3138-2":{"type":"button","settings":{"button_label":"SHOP BABY","button_link":"shopify:\/\/collections\/baby"}}},"block_order":["1635150566ca3b3138-0","1635150566ca3b3138-1","1635150566ca3b3138-2"],"settings":{"image":"shopify:\/\/shop_images\/home-collection-callout-1.jpg","layout":"image_first","icon":"shopify:\/\/shop_images\/icon_moon.png","icon_position":"top_left","icon_size":50}},"16351505715c601d59":{"type":"home-collection-callout","blocks":{"16351505715c601d59-0":{"type":"heading","settings":{"heading":"Kid-approved patterns that make little ones excited to get in (and stay in) bed."}},"16351505715c601d59-1":{"type":"text","disabled":true,"settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}},"16351505715c601d59-2":{"type":"button","settings":{"button_label":"SHOP KID","button_link":"shopify:\/\/collections\/kids"}}},"block_order":["16351505715c601d59-0","16351505715c601d59-1","16351505715c601d59-2"],"settings":{"image":"shopify:\/\/shop_images\/home-collection-callout-2.jpg","layout":"text_first","icon":"shopify:\/\/shop_images\/icon_star.png","icon_position":"top_left","icon_size":50}},"163515218017989ba1":{"type":"home-collection-callout","blocks":{"163515218017989ba1-0":{"type":"heading","settings":{"heading":"One click to a freshly-coordinated bed or the perfect baby or kid gift."}},"163515218017989ba1-1":{"type":"text","disabled":true,"settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}},"163515218017989ba1-2":{"type":"button","settings":{"button_label":"BUNDLES","button_link":"#"}}},"block_order":["163515218017989ba1-0","163515218017989ba1-1","163515218017989ba1-2"],"settings":{"image":"shopify:\/\/shop_images\/home-collection-callout-3.jpg","layout":"image_first","icon":"shopify:\/\/shop_images\/product_callout_banner_icon_d1dd912b-67bb-4fd4-b1c4-7f332280b792.png","icon_position":"bottom_right","icon_size":95}},"1635854662b52c3439":{"type":"rich-text-with-icon","disabled":true,"blocks":{"1635854662b52c3439-0":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"1635854662b52c3439-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"1635854662b52c3439-2":{"type":"icon","settings":{}},"1635854662b52c3439-3":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["1635854662b52c3439-0","1635854662b52c3439-1","1635854662b52c3439-2","1635854662b52c3439-3"],"settings":{"background":"","full_width":true}}},"order":["1634905274161eb836","61737c72-157f-4fa6-a0a8-4e62a64d2973","1019ccdf-afb3-4779-8073-612817d19a15","304c206f-b911-4df3-8837-adfdd0519fc4","56cbdb13-d97b-4423-a372-e5e47546724c","rich_text","featured_products","27e39f97-e939-469e-b23e-bf256fd41c30","163490557324550370","1635150566ca3b3138","16351505715c601d59","163515218017989ba1","1635854662b52c3439"]}
+{
+  "sections": {
+    "1634905274161eb836": {
+      "type": "hero-image-with-text",
+      "blocks": {
+        "1634905274161eb836-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sweet Bedding. Sweet Dreams."
+          }
+        },
+        "1634905274161eb836-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1634905274161eb836-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "1634905274161eb836-0",
+        "1634905274161eb836-1",
+        "1634905274161eb836-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home_hero.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "image_first"
+      }
+    },
+    "74893698-afc0-40d6-8129-af378c4d456c": {
+      "type": "double-image-banner",
+      "blocks": {
+        "077b370c-4e99-427d-972f-d35d97b5ec0c": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-shoes.jpg",
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "text": "Image details",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/crib-sheet",
+            "button_style_secondary": false
+          }
+        },
+        "b6d2689c-2d6d-42e3-9eff-1ddc3578f8c3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hero-shopAll.jpg",
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "text": "Image details",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/toddler-sheet-planes-trains-dinos",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "077b370c-4e99-427d-972f-d35d97b5ec0c",
+        "b6d2689c-2d6d-42e3-9eff-1ddc3578f8c3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f84c2337-65be-48d4-aa92-e2f240a47337": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\nvideo {\ndisplay: block;\nmargin: 0 auto;\nwidth: 100%;\nheight: 50%;\n}\n<\/style>\n\n<video autoplay loop playsinline muted>\n<source src= \"UPLOADED VIDEO LINK HERE\">\n<\/video>"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": true
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "We think you'll love",
+        "collection": "all",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "e09f7344-7191-43b0-b6d3-1040e67deb49": {
+      "type": "homepage-variants",
+      "settings": {
+        "product": "crib-sheet",
+        "heading": "Featured Prints",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "27e39f97-e939-469e-b23e-bf256fd41c30": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-shoes.jpg",
+            "title": "Print 1",
+            "text": ""
+          }
+        },
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_callout_1.jpg",
+            "title": "Print 2",
+            "text": ""
+          }
+        },
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_hero.jpg",
+            "title": "Print 3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-0",
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-1",
+        "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-2"
+      ],
+      "settings": {
+        "title": "We think you'll love",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "SHOP ALL",
+        "button_link": "shopify:\/\/collections\/all",
+        "swipe_on_mobile": false
+      }
+    },
+    "163490557324550370": {
+      "type": "image-with-text",
+      "blocks": {
+        "163490557324550370-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We provide parents and kids with a better night’s sleep."
+          }
+        },
+        "163490557324550370-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our sheets are made from Lenzing™ Modal. The material is derived from a closed loop process that transforms raw beech tree pulp — a renewable resource — into TENCEL Lyocell fibers. The sheets are printed using AZO-Free dyes, and certified by OEKO-TEX®, one of the best-known textile labels that tests for harmful substances. With a buttery soft, perfectly-fitting sheet, we bring the magic and joy of youthfulness to bedtime, making sleep more enjoyable for little ones—and their parents.<\/p>"
+          }
+        },
+        "163490557324550370-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ABOUT US",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "163490557324550370-0",
+        "163490557324550370-1",
+        "163490557324550370-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home_callout_1.jpg",
+        "height": "default",
+        "header_size": "small",
+        "width": "normal",
+        "color_scheme": "accent-2",
+        "layout": "image_first",
+        "icon": "shopify:\/\/shop_images\/white_cloud_yellow_stars-18.png"
+      }
+    },
+    "1635150566ca3b3138": {
+      "type": "home-collection-callout",
+      "blocks": {
+        "1635150566ca3b3138-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ultra-soft and sustainable fabrics so your baby sleeps peacefully allowing parents to rest easily."
+          }
+        },
+        "1635150566ca3b3138-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "1635150566ca3b3138-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP BABY",
+            "button_link": "shopify:\/\/collections\/baby"
+          }
+        }
+      },
+      "block_order": [
+        "1635150566ca3b3138-0",
+        "1635150566ca3b3138-1",
+        "1635150566ca3b3138-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-collection-callout-1.jpg",
+        "layout": "image_first",
+        "icon": "shopify:\/\/shop_images\/Icons_2-10.png",
+        "icon_position": "top_left",
+        "icon_size": 50
+      }
+    },
+    "16351505715c601d59": {
+      "type": "home-collection-callout",
+      "blocks": {
+        "16351505715c601d59-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kid-approved patterns that make little ones excited to get in (and stay in) bed."
+          }
+        },
+        "16351505715c601d59-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16351505715c601d59-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP KID",
+            "button_link": "shopify:\/\/collections\/kids"
+          }
+        }
+      },
+      "block_order": [
+        "16351505715c601d59-0",
+        "16351505715c601d59-1",
+        "16351505715c601d59-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-collection-callout-2.jpg",
+        "layout": "text_first",
+        "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
+        "icon_position": "top_left",
+        "icon_size": 50
+      }
+    },
+    "163515218017989ba1": {
+      "type": "home-collection-callout",
+      "blocks": {
+        "163515218017989ba1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "One click to a freshly-coordinated bed or the perfect baby or kid gift."
+          }
+        },
+        "163515218017989ba1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163515218017989ba1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUNDLES",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "163515218017989ba1-0",
+        "163515218017989ba1-1",
+        "163515218017989ba1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-collection-callout-3.jpg",
+        "layout": "image_first",
+        "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
+        "icon_position": "bottom_right",
+        "icon_size": 95
+      }
+    },
+    "1635854662b52c3439": {
+      "type": "rich-text-with-icon",
+      "disabled": true,
+      "blocks": {
+        "1635854662b52c3439-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1635854662b52c3439-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1635854662b52c3439-2": {
+          "type": "icon",
+          "settings": {
+          }
+        },
+        "1635854662b52c3439-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1635854662b52c3439-0",
+        "1635854662b52c3439-1",
+        "1635854662b52c3439-2",
+        "1635854662b52c3439-3"
+      ],
+      "settings": {
+        "background": "",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1634905274161eb836",
+    "74893698-afc0-40d6-8129-af378c4d456c",
+    "f84c2337-65be-48d4-aa92-e2f240a47337",
+    "rich_text",
+    "featured_products",
+    "e09f7344-7191-43b0-b6d3-1040e67deb49",
+    "27e39f97-e939-469e-b23e-bf256fd41c30",
+    "163490557324550370",
+    "1635150566ca3b3138",
+    "16351505715c601d59",
+    "163515218017989ba1",
+    "1635854662b52c3439"
+  ]
+}
