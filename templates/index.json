@@ -228,7 +228,7 @@
         "163490557324550370-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home_callout_1.jpg",
+        "image": "shopify:\/\/shop_images\/23_5_11PetitSleep_websize-15.jpg",
         "height": "default",
         "header_size": "small",
         "width": "normal",
@@ -267,7 +267,7 @@
         "1635150566ca3b3138-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-collection-callout-1.jpg",
+        "image": "shopify:\/\/shop_images\/Feet.png",
         "layout": "image_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-10.png",
         "icon_position": "top_left",
@@ -304,7 +304,7 @@
         "16351505715c601d59-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-collection-callout-2.jpg",
+        "image": "shopify:\/\/shop_images\/Jumping.png",
         "layout": "text_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
         "icon_position": "top_left",
@@ -317,7 +317,7 @@
         "163515218017989ba1-0": {
           "type": "heading",
           "settings": {
-            "heading": "One click to a freshly-coordinated bed or the perfect baby or kid gift."
+            "heading": "One click to a fresh print that everyone will fall asleep and wake up to smiling."
           }
         },
         "163515218017989ba1-1": {
@@ -330,7 +330,7 @@
         "163515218017989ba1-2": {
           "type": "button",
           "settings": {
-            "button_label": "BUNDLES",
+            "button_label": "SHOP SMILES",
             "button_link": "#"
           }
         }
@@ -341,7 +341,7 @@
         "163515218017989ba1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-collection-callout-3.jpg",
+        "image": "shopify:\/\/shop_images\/Pizza.png",
         "layout": "image_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
         "icon_position": "bottom_right",
