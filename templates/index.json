@@ -30,7 +30,7 @@
         "1634905274161eb836-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home_hero.jpg",
+        "image": "shopify:\/\/shop_images\/23_5_11PetitSleep_websize-10.png",
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
@@ -38,6 +38,7 @@
     },
     "74893698-afc0-40d6-8129-af378c4d456c": {
       "type": "double-image-banner",
+      "disabled": true,
       "blocks": {
         "077b370c-4e99-427d-972f-d35d97b5ec0c": {
           "type": "banner",
