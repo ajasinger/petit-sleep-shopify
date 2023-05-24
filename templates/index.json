@@ -303,8 +303,11 @@
         "16351505715c601d59-1",
         "16351505715c601d59-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Jumping.png",
+        "image": "shopify:\/\/shop_images\/Sheep.png",
         "layout": "text_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
         "icon_position": "top_left",
