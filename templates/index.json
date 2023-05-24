@@ -30,7 +30,7 @@
         "1634905274161eb836-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/23_5_11PetitSleep_websize-10.png",
+        "image": "shopify:\/\/shop_images\/Jumping_788f4998-e009-4f3b-84fa-098723247f98.png",
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
@@ -145,7 +145,7 @@
       "type": "homepage-variants",
       "settings": {
         "product": "crib-sheet",
-        "heading": "Featured Prints",
+        "heading": "Featured Products",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": true,
