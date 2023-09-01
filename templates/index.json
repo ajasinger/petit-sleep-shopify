@@ -38,7 +38,6 @@
     },
     "74893698-afc0-40d6-8129-af378c4d456c": {
       "type": "double-image-banner",
-      "disabled": true,
       "blocks": {
         "077b370c-4e99-427d-972f-d35d97b5ec0c": {
           "type": "banner",
@@ -69,6 +68,7 @@
         "077b370c-4e99-427d-972f-d35d97b5ec0c",
         "b6d2689c-2d6d-42e3-9eff-1ddc3578f8c3"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -89,7 +89,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -118,6 +117,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -156,7 +156,6 @@
     },
     "27e39f97-e939-469e-b23e-bf256fd41c30": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-0": {
           "type": "column",
@@ -188,6 +187,7 @@
         "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-1",
         "template--15921122705558__27e39f97-e939-469e-b23e-bf256fd41c30-16735468382a61cfb7-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "We think you'll love",
         "image_width": "full",
@@ -243,7 +243,7 @@
         "1635150566ca3b3138-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ultra-soft and sustainable fabrics so your baby sleeps peacefully allowing parents to rest easily."
+            "heading": "Ultra-soft and sustainable fabrics so baby sleeps peacefully allowing parents to rest easily."
           }
         },
         "1635150566ca3b3138-1": {
@@ -256,7 +256,7 @@
         "1635150566ca3b3138-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP BABY",
+            "button_label": "SHOP CRIB SHEETS",
             "button_link": "shopify:\/\/collections\/baby"
           }
         }
@@ -293,7 +293,7 @@
         "16351505715c601d59-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP KID",
+            "button_label": "SHOP CRIB SHEETS",
             "button_link": "shopify:\/\/collections\/kids"
           }
         }
@@ -333,7 +333,7 @@
         "163515218017989ba1-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP SMILES",
+            "button_label": "SHOP NOW",
             "button_link": "#"
           }
         }
@@ -353,7 +353,6 @@
     },
     "1635854662b52c3439": {
       "type": "rich-text-with-icon",
-      "disabled": true,
       "blocks": {
         "1635854662b52c3439-0": {
           "type": "heading",
@@ -388,6 +387,7 @@
         "1635854662b52c3439-2",
         "1635854662b52c3439-3"
       ],
+      "disabled": true,
       "settings": {
         "background": "",
         "full_width": true
