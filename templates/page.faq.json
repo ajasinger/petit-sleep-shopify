@@ -1,1 +1,60 @@
-{"sections":{"main":{"type":"main-page-faq","blocks":{"1dbb05d9-5e72-4a4a-964b-18bd86ca72a9":{"type":"faq","settings":{"question":"Where do you ship?","answer":"<p>We ship throughout the United States.<\/p>"}},"e1b11682-3a66-4511-a725-935b31fb4ed4":{"type":"faq","settings":{"question":"How much is shipping?","answer":"<p>I have an answer<\/p>"}}},"block_order":["1dbb05d9-5e72-4a4a-964b-18bd86ca72a9","e1b11682-3a66-4511-a725-935b31fb4ed4"],"settings":{"intro":"Shipping Information"}},"163776918747ccee4b":{"type":"main-page-faq","blocks":{"16377691877efe706c-0":{"type":"faq","settings":{"question":"How do I return or exchange an item?","answer":"<p>Products that are unwashed and in their original packaging are eligible for return within 30 days of delivery.<\/p><p>To begin a return or exchange, please click <a href=\"http:\/\/www.petitsleep.com\"><span style=\"text-decoration:underline\">here<\/span><\/a> to access our Returns Portal. This will provide you with a prepaid return label and ensure your return is processed ASAP.<\/p><p>Please allow up to 2 weeks for processing once your return is received and quality checked at our warehouse. <\/p><p>Once your return is processed you will receive an email confirmation to the email address provided at the time of purchase. <\/p>"}},"fa5f2879-37e4-47a0-812d-153d9f288ecf":{"type":"faq","settings":{"question":"There’s something wrong with my order, what should I do?","answer":"<p>Please <a href=\"mailto:sleep@petitsleep.com\"><span style=\"text-decoration:underline\">contact us<\/span><\/a> ASAP, and we will be sure to fix the problem ASAP. <\/p>"}}},"block_order":["16377691877efe706c-0","fa5f2879-37e4-47a0-812d-153d9f288ecf"],"settings":{"intro":"Return Information"}}},"order":["main","163776918747ccee4b"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page-faq",
+      "blocks": {
+        "1dbb05d9-5e72-4a4a-964b-18bd86ca72a9": {
+          "type": "faq",
+          "settings": {
+            "question": "Where do you ship?",
+            "answer": "<p>We proudly ship within the US.<\/p>"
+          }
+        },
+        "e1b11682-3a66-4511-a725-935b31fb4ed4": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is shipping?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1dbb05d9-5e72-4a4a-964b-18bd86ca72a9",
+        "e1b11682-3a66-4511-a725-935b31fb4ed4"
+      ],
+      "settings": {
+        "intro": "Shipping Information"
+      }
+    },
+    "163776918747ccee4b": {
+      "type": "main-page-faq",
+      "blocks": {
+        "16377691877efe706c-0": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I return or exchange an item?",
+            "answer": "<p>Products that are unwashed and in their original packaging are eligible for return within 30 days of delivery.<\/p><p>To begin a return or exchange, please click <a href=\"http:\/\/www.petitsleep.com\"><span style=\"text-decoration:underline\">here<\/span><\/a> to access our Returns Portal. This will provide you with a prepaid return label and ensure your return is processed ASAP.<\/p><p>Please allow up to 2 weeks for processing once your return is received and quality checked at our warehouse. <\/p><p>Once your return is processed you will receive an email confirmation to the email address provided at the time of purchase. <\/p>"
+          }
+        },
+        "fa5f2879-37e4-47a0-812d-153d9f288ecf": {
+          "type": "faq",
+          "settings": {
+            "question": "There’s something wrong with my order, what should I do?",
+            "answer": "<p>Please <a href=\"mailto:sleep@petitsleep.com\"><span style=\"text-decoration:underline\">contact us<\/span><\/a> ASAP, and we will be sure to fix the problem ASAP. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16377691877efe706c-0",
+        "fa5f2879-37e4-47a0-812d-153d9f288ecf"
+      ],
+      "settings": {
+        "intro": "Return Information"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163776918747ccee4b"
+  ]
+}
