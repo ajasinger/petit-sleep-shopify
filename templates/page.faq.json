@@ -51,10 +51,37 @@
       "settings": {
         "intro": "Return Information"
       }
+    },
+    "23d524a0-58a8-4600-83b0-1685934e2212": {
+      "type": "main-page-faq",
+      "blocks": {
+        "template--15929310609558__23d524a0-58a8-4600-83b0-1685934e2212-faq-1": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "bfe58812-237a-4be8-872c-66dfb3c08f07": {
+          "type": "faq",
+          "settings": {
+            "question": "What are Petit Sleep Crib Sheets made of?",
+            "answer": "<p>Our Crib Sheets are 95% certified TENCEL™ Modal, 5% Spandex. <\/p><p>Lenzing's flagship brand for textiles. TENCEL™ Modal is a super-soft sustainable knit made from the pulp of Austrian beechwood trees. Lenzing uses pesticide free wood to produce their fibers. They have acquired many acalades inlusive of climate pledge friendly certifications. The finished product is lightweight, breathable, cool to the touch, and durable enough to be machine-washed and tumbled dry. All of our dyes are nontoxic, AZO-, phthalate- and metal-free. We do not use flame retardants.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929310609558__23d524a0-58a8-4600-83b0-1685934e2212-faq-1",
+        "bfe58812-237a-4be8-872c-66dfb3c08f07"
+      ],
+      "settings": {
+        "intro": "Material & Care"
+      }
     }
   },
   "order": [
     "main",
-    "163776918747ccee4b"
+    "163776918747ccee4b",
+    "23d524a0-58a8-4600-83b0-1685934e2212"
   ]
 }
