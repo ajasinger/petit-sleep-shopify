@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     },
@@ -108,7 +111,7 @@
         "1635790510eb6ca23c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our kids led us to this gap in the market. Our three-year-old’s interest in transitioning from a crib to a bed was dependent on the design. At the time, the market didn’t sell mom and kid-approved sheets. We are thrilled that our family is sleeping soundly and comfortably in Petit Sleep!<\/p>"
+            "text": "<p>Our kids led us to this gap in the market. Our three-year-old’s interest in transitioning from a crib to a bed was dependent on the design. At the time, the market didn’t sell mom-and-kid-approved sheets. We are thrilled that our family is sleeping soundly and comfortably in Petit Sleep!<\/p>"
           }
         },
         "1635790510eb6ca23c-2": {
