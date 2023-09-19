@@ -68,11 +68,19 @@
             "question": "How should I care for Petit Sleep Crib Sheets?",
             "answer": "<p>Wash on a cold, gentle cycle and then tumble dry low. Do not bleach. Wash in this manner in order to preserve the durability and strength of the fabric. Avoid snagging or damaging the fabric by avoiding washing with other clothing with snaps, buttons, Velcro, or zippers. Pretreat any spots with a product containing enzymes. Avoid clipping anything, including pacifier clips, to the fabric to avoid unintended holes. Store in an airtight container when saving crib sheets for your next child!<\/p>"
           }
+        },
+        "a5885834-afd1-4472-93d1-3ba12772db3f": {
+          "type": "faq",
+          "settings": {
+            "question": "",
+            "answer": "<p>I have an answer<\/p>"
+          }
         }
       },
       "block_order": [
         "bfe58812-237a-4be8-872c-66dfb3c08f07",
-        "template--15929310609558__23d524a0-58a8-4600-83b0-1685934e2212-faq-1"
+        "template--15929310609558__23d524a0-58a8-4600-83b0-1685934e2212-faq-1",
+        "a5885834-afd1-4472-93d1-3ba12772db3f"
       ],
       "settings": {
         "intro": "Material & Care"
