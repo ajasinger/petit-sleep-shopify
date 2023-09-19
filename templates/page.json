@@ -38,11 +38,12 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/about-photo1.jpg",
-        "height": "adapt",
-        "header_size": "default",
-        "width": "full-width",
+        "height": "small",
+        "header_size": "small",
+        "width": "normal",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "icon": "shopify:\/\/shop_images\/white_cloud_yellow_stars-18.png"
       }
     },
     "a46fe72d-5c37-4549-9d94-f2790be44f13": {
