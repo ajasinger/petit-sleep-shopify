@@ -351,7 +351,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pizza.png",
-        "layout": "image_first",
+        "layout": "text_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
         "icon_position": "bottom_right",
         "icon_size": 95
@@ -391,7 +391,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sheep.png",
-        "layout": "text_first",
+        "layout": "image_first",
         "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
         "icon_position": "top_left",
         "icon_size": 50
