@@ -1,5 +1,50 @@
 {
   "sections": {
+    "98614ff9-c692-406a-8182-0bda18a58777": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop Now!",
+            "heading_size": "medium"
+          }
+        },
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Crib Sheets are finally available via Pre-Sale!"
+          }
+        },
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Pre-Sale",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "About Us",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-heading-1",
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-text-1",
+        "template--15929310642326__98614ff9-c692-406a-8182-0bda18a58777-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/23_5_11PetitSleep_websize-25.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1634905274161eb836": {
       "type": "hero-image-with-text",
       "blocks": {
@@ -29,6 +74,7 @@
         "1634905274161eb836-1",
         "1634905274161eb836-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Jumping_788f4998-e009-4f3b-84fa-098723247f98.png",
         "height": "adapt",
@@ -274,6 +320,43 @@
         "icon_size": 50
       }
     },
+    "163515218017989ba1": {
+      "type": "home-collection-callout",
+      "blocks": {
+        "163515218017989ba1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "One click to a fresh print that everyone will fall asleep and wake up to smiling."
+          }
+        },
+        "163515218017989ba1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163515218017989ba1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "163515218017989ba1-0",
+        "163515218017989ba1-1",
+        "163515218017989ba1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pizza.png",
+        "layout": "image_first",
+        "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
+        "icon_position": "bottom_right",
+        "icon_size": 95
+      }
+    },
     "16351505715c601d59": {
       "type": "home-collection-callout",
       "blocks": {
@@ -312,43 +395,6 @@
         "icon": "shopify:\/\/shop_images\/Icons_2-09.png",
         "icon_position": "top_left",
         "icon_size": 50
-      }
-    },
-    "163515218017989ba1": {
-      "type": "home-collection-callout",
-      "blocks": {
-        "163515218017989ba1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "One click to a fresh print that everyone will fall asleep and wake up to smiling."
-          }
-        },
-        "163515218017989ba1-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163515218017989ba1-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "163515218017989ba1-0",
-        "163515218017989ba1-1",
-        "163515218017989ba1-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Pizza.png",
-        "layout": "image_first",
-        "icon": "shopify:\/\/shop_images\/Icons_2-06.png",
-        "icon_position": "bottom_right",
-        "icon_size": 95
       }
     },
     "1635854662b52c3439": {
@@ -395,6 +441,7 @@
     }
   },
   "order": [
+    "98614ff9-c692-406a-8182-0bda18a58777",
     "1634905274161eb836",
     "74893698-afc0-40d6-8129-af378c4d456c",
     "f84c2337-65be-48d4-aa92-e2f240a47337",
@@ -404,8 +451,8 @@
     "27e39f97-e939-469e-b23e-bf256fd41c30",
     "163490557324550370",
     "1635150566ca3b3138",
-    "16351505715c601d59",
     "163515218017989ba1",
+    "16351505715c601d59",
     "1635854662b52c3439"
   ]
 }
