@@ -8,6 +8,43 @@
       "settings": {
       }
     },
+    "0cf58640-49f5-4e43-9c80-b716beb1c531": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lifetime friends Liz & Emily came together when they noticed a void in the baby and toddler space. In order to fill a gap in the children’s bedding space, to replace crunchy, ill fitting, and mediocre designed bedding, was born. Our mission is to bring the magic and joy of youthfulness to bedtime, making sleep more enjoyable for little ones—and their parents.<\/p>"
+          }
+        },
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-heading-1",
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-text-1",
+        "template--15929310478486__0cf58640-49f5-4e43-9c80-b716beb1c531-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-photo1.jpg",
+        "height": "adapt",
+        "header_size": "default",
+        "width": "full-width",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
     "a46fe72d-5c37-4549-9d94-f2790be44f13": {
       "type": "main-page-faq",
       "blocks": {
@@ -193,6 +230,7 @@
   },
   "order": [
     "main",
+    "0cf58640-49f5-4e43-9c80-b716beb1c531",
     "a46fe72d-5c37-4549-9d94-f2790be44f13",
     "16357906696d75875b",
     "1635791181a7717dec",
