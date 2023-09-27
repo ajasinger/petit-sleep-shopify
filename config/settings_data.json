@@ -18,6 +18,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/PS_Logo-05.png",
     "checkout_logo_size": "medium",
     "checkout_sidebar_background_color": "#f6f6f6",
+    "checkout_accent_color": "#1f4497",
+    "checkout_button_color": "#4978b8",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
