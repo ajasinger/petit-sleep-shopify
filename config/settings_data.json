@@ -16,6 +16,8 @@
     "favicon": "shopify:\/\/shop_images\/cloud_icon_ea1d8965-8575-4667-8fb2-d7efc0497df5.png",
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/PS_Logo-05.png",
+    "checkout_logo_size": "medium",
+    "checkout_sidebar_background_color": "#c0e0ee",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
